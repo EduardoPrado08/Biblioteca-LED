@@ -98,6 +98,8 @@ bool Led::getEstado()
 void Led::setEstado(bool estadoLed)
 {
     this->estadoLed = estadoLed;
+    desligarLedTempo = false;
+    estadoPiscar = false;
 }
 
 uint8_t Led::getPinoLed()

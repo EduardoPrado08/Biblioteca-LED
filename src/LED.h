@@ -98,6 +98,7 @@ public:
 
     /**
      * @brief Atualiza o estado do LED.
+     * @note Deve ser colocado dentro do loop() para atualizar constantemente
      */
     void update();
 };

@@ -1,0 +1,16 @@
+{
+    "name": "Led",
+    "version": "1.0.0",
+    "description": "Biblioteca para controle não blqueante de LED com suporte a Ligar, desligar, alternar, temporização e piscadas",
+    "keywords": ["led", "arduino", "esp32", "non-blocking" ],
+    "authors": [
+        {
+            "name": "Eduardo Prado Bispo Almeida",
+            "github": "EduardoPrado08"
+        }
+    ],
+    "license": "MIT",
+    "frameworks": ["arduino"],
+    "platforms": ["*"],
+    "headers": ["LED.h"]
+}
